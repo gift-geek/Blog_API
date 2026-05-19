@@ -19,7 +19,7 @@ app.use(cors({
 app.use(express.json());
 app.use("/blog",router)
 
-app.get("/blog",(req,res)=>{
+app.get("/",(req,res)=>{
     res.send("Hello Bloggers")
 });
 
